@@ -382,6 +382,9 @@
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
+  .mb-1 {
+    margin-bottom: calc(var(--spacing) * 1);
+  }
   .mb-1\.5 {
     margin-bottom: calc(var(--spacing) * 1.5);
   }
@@ -544,8 +547,14 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
+  }
+  .w-2 {
+    width: calc(var(--spacing) * 2);
   }
   .w-2\/5 {
     width: calc(2/5 * 100%);
@@ -831,8 +840,11 @@
   .auto-rows-min {
     grid-auto-rows: min-content;
   }
-  .grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .grid-cols-\[auto_1fr\] {
     grid-template-columns: auto 1fr;
@@ -1246,6 +1258,9 @@
     --tw-border-style: solid;
     border-style: solid;
   }
+  .border-pink-100 {
+    border-color: var(--color-pink-100);
+  }
   .border-pink-100\/15 {
     border-color: color-mix(in oklab, var(--color-pink-100) 15%, transparent);
   }
@@ -1272,6 +1287,9 @@
   }
   .bg-black {
     background-color: var(--color-black);
+  }
+  .bg-pink-200 {
+    background-color: var(--color-pink-200);
   }
   .bg-pink-200\/30 {
     background-color: color-mix(in oklab, var(--color-pink-200) 30%, transparent);
@@ -2177,6 +2195,16 @@
       @media (hover: hover) {
         background-color: color-mix(in oklab, var(--color-white) 25%, transparent);
       }
+    }
+  }
+  .lg\:grid-cols-4 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  .xl\:grid-cols-4 {
+    @media (width >= 80rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 }
