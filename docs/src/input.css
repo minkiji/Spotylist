@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Raleway', 'Poppins', 'Noto Sans KR', 'sans-serif';
+  }
+}
+
+html {
+  color: white;
+}
+
+@theme {
+  --color-pencil: #cccccc;
+}
+
+@layer utilities {
+  .spotify-scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .spotify-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .spotify-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+  }
+
+  .spotify-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  /* Firefox */
+  .spotify-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+  }
+}
+
+.text-pencil1 {
+  color: #e9dfdf;
+}
+
+.page-background {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 70%, rgba(215,131,195,1) 100%);
+  background-repeat: no-repeat;
+}
+
+.text-primary {
+  color: #ffc0d9;
+}
+
+.shadow-text {
+  color: #7c7c7c;
+}
+
+.secondary-background {
+  background-color: #35161f;
+}
