@@ -382,9 +382,6 @@
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
-  .mb-1 {
-    margin-bottom: calc(var(--spacing) * 1);
-  }
   .mb-1\.5 {
     margin-bottom: calc(var(--spacing) * 1.5);
   }
@@ -393,9 +390,6 @@
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
-  }
-  .mb-4 {
-    margin-bottom: calc(var(--spacing) * 4);
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
@@ -514,12 +508,6 @@
   .h-1 {
     height: calc(var(--spacing) * 1);
   }
-  .h-5 {
-    height: calc(var(--spacing) * 5);
-  }
-  .h-6 {
-    height: calc(var(--spacing) * 6);
-  }
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
@@ -556,14 +544,8 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
-  }
-  .w-2 {
-    width: calc(var(--spacing) * 2);
   }
   .w-2\/5 {
     width: calc(2/5 * 100%);
@@ -585,9 +567,6 @@
   }
   .w-\[19\.5ch\] {
     width: 19.5ch;
-  }
-  .w-\[20ch\] {
-    width: 20ch;
   }
   .w-\[171\.15px\] {
     width: 171.15px;
@@ -1267,9 +1246,6 @@
     --tw-border-style: solid;
     border-style: solid;
   }
-  .border-pink-100 {
-    border-color: var(--color-pink-100);
-  }
   .border-pink-100\/15 {
     border-color: color-mix(in oklab, var(--color-pink-100) 15%, transparent);
   }
@@ -1296,9 +1272,6 @@
   }
   .bg-black {
     background-color: var(--color-black);
-  }
-  .bg-pink-200 {
-    background-color: var(--color-pink-200);
   }
   .bg-pink-200\/30 {
     background-color: color-mix(in oklab, var(--color-pink-200) 30%, transparent);
@@ -1487,9 +1460,6 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
-  .p-3 {
-    padding: calc(var(--spacing) * 3);
-  }
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
@@ -1501,9 +1471,6 @@
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
-  }
-  .px-6 {
-    padding-inline: calc(var(--spacing) * 6);
   }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
@@ -2198,12 +2165,6 @@
       background-color: color-mix(in oklab, var(--color-black) 40%, transparent);
     }
   }
-  .before\:px-2 {
-    &::before {
-      content: var(--tw-content);
-      padding-inline: calc(var(--spacing) * 2);
-    }
-  }
   .hover\:bg-pink-200\/50 {
     &:hover {
       @media (hover: hover) {
@@ -2211,45 +2172,10 @@
       }
     }
   }
-  .hover\:bg-white\/10 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: color-mix(in oklab, var(--color-white) 10%, transparent);
-      }
-    }
-  }
-  .hover\:bg-white\/20 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: color-mix(in oklab, var(--color-white) 20%, transparent);
-      }
-    }
-  }
   .hover\:bg-white\/25 {
     &:hover {
       @media (hover: hover) {
         background-color: color-mix(in oklab, var(--color-white) 25%, transparent);
-      }
-    }
-  }
-  .hover\:bg-white\/30 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: color-mix(in oklab, var(--color-white) 30%, transparent);
-      }
-    }
-  }
-  .hover\:bg-white\/50 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: color-mix(in oklab, var(--color-white) 50%, transparent);
-      }
-    }
-  }
-  .hover\:text-white {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-white);
       }
     }
   }
